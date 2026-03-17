@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TruePrice — Калькулятор реальной стоимости</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logo">
+        <span class="logo-icon">TP</span>
+        <span class="logo-text">TruePrice</span>
+      </div>
+      <div class="lang-switcher" id="langSwitcher">
+        <button class="lang-btn" id="langBtn">🇷🇺 RU ▾</button>
+        <ul class="lang-menu" id="langMenu">
+          <li class="active">🇷🇺 RU ✓</li>
+          <li>🇦🇿 AZ</li>
+          <li>🇬🇧 EN</li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="hero">
+      <p class="eyebrow">Калькулятор реальной стоимости</p>
+      <h1>Сколько ты <span class="gradient">реально</span> заплатишь?</h1>
+      <p class="subtitle">Не ценник, а итоговая сумма: доставка, пошлины, курс и лимиты.</p>
+
+      <section class="search-wrap" id="searchWrap">
+        <div class="country" id="countrySelect">
+          <button class="country-btn" id="countryBtn">🇦🇿 Азербайджан · Баку · AZN ▾</button>
+          <ul class="country-menu" id="countryMenu">
+            <li class="active" data-country="az">🇦🇿 Азербайджан · Баку · AZN ✓</li>
+            <li class="soon">🇬🇪 Грузия · Тбилиси · GEL <span>скоро</span></li>
+            <li class="soon">🇦🇲 Армения · Ереван · AMD <span>скоро</span></li>
+            <li class="soon">🇺🇿 Узбекистан · Ташкент · UZS <span>скоро</span></li>
+            <li class="soon">🇰🇿 Казахстан · Алматы · KZT <span>скоро</span></li>
+          </ul>
+        </div>
+        <input id="queryInput" placeholder="Введи название товара — iPhone, Samsung, PS5, MacBook..." />
+        <button class="calc-btn" id="calcBtn">Рассчитать</button>
+      </section>
+
+      <div class="chips" id="chips">
+        <button>iPhone 16 Pro</button>
+        <button>Samsung S25 Ultra</button>
+        <button>PS5 Slim</button>
+        <button>MacBook Air M3</button>
+        <button>AirPods Pro 2</button>
+        <button>Sony WH-1000XM5</button>
+        <button>iPad Pro M4</button>
+        <button>Watch Ultra 2</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
