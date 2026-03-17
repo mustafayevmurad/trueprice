@@ -1,0 +1,137 @@
+{
+  "updated_at": "2026-03-17T11:21:49.575Z",
+  "rates": {
+    "EUR": 1.821,
+    "USD": 1.7,
+    "TRY": 0.052
+  },
+  "chips": [
+    "iPhone 16 Pro",
+    "Samsung S25 Ultra",
+    "PS5 Slim"
+  ],
+  "countries": [
+    {
+      "code": "az",
+      "flag": "🇦🇿",
+      "name_ru": "Азербайджан",
+      "city": "Баку",
+      "currency": "AZN",
+      "status": "active"
+    },
+    {
+      "code": "ge",
+      "flag": "🇬🇪",
+      "name_ru": "Грузия",
+      "city": "Тбилиси",
+      "currency": "GEL",
+      "status": "soon"
+    },
+    {
+      "code": "am",
+      "flag": "🇦🇲",
+      "name_ru": "Армения",
+      "city": "Ереван",
+      "currency": "AMD",
+      "status": "soon"
+    },
+    {
+      "code": "uz",
+      "flag": "🇺🇿",
+      "name_ru": "Узбекистан",
+      "city": "Ташкент",
+      "currency": "UZS",
+      "status": "soon"
+    },
+    {
+      "code": "kz",
+      "flag": "🇰🇿",
+      "name_ru": "Казахстан",
+      "city": "Алматы",
+      "currency": "KZT",
+      "status": "soon"
+    }
+  ],
+  "customs": {
+    "de_minimis_eur": 300,
+    "personal_limit_eur": 800,
+    "duty_pct": 15,
+    "vat_pct": 18,
+    "source_url": "https://customs.gov.az",
+    "last_verified": "2026-03-01"
+  },
+  "delivery": [
+    {
+      "route": "Amazon.de → Баку",
+      "method": "Карго (Senden/DHL)",
+      "cost": 22,
+      "currency": "EUR",
+      "eta": "7–10 дней"
+    },
+    {
+      "route": "Amazon.com → Баку",
+      "method": "Форвардинг (Shipito)",
+      "cost": 38,
+      "currency": "USD",
+      "eta": "14–21 день"
+    }
+  ],
+  "products": [
+    {
+      "id": "iphone-16-pro-256",
+      "query": "iPhone 16 Pro 256GB",
+      "brand": "Apple",
+      "model": "iPhone 16 Pro",
+      "storage": "256 GB",
+      "color": "Black Titanium",
+      "ean": "1111111111111",
+      "display_name": "iPhone 16 Pro · 256 GB · Black Titanium",
+      "specs": "Apple A18 Pro · iOS 18 · 6.3\" OLED · 5G",
+      "aliases": [
+        "iphone 16 pro",
+        "iphone16pro",
+        "iphone 16 pro 256gb"
+      ],
+      "prices": {
+        "kontakt": 2890,
+        "irshad": 2950,
+        "tap_business": 2790,
+        "tap_private": 2750,
+        "tap_count": 14,
+        "amazon_de": 1229,
+        "amazon_us": 1199,
+        "dubai_eur": 1229,
+        "turkey_try": 45999
+      },
+      "active": true
+    },
+    {
+      "id": "s25-ultra-256",
+      "query": "Samsung S25 Ultra 256GB",
+      "brand": "Samsung",
+      "model": "Galaxy S25 Ultra",
+      "storage": "256 GB",
+      "color": "Titanium Gray",
+      "ean": "2222222222222",
+      "display_name": "Galaxy S25 Ultra · 256 GB · Titanium Gray",
+      "specs": "Snapdragon 8 Elite · One UI · 6.8\" AMOLED · 5G",
+      "aliases": [
+        "samsung s25 ultra",
+        "galaxy s25 ultra",
+        "s25 ultra"
+      ],
+      "prices": {
+        "kontakt": 2710,
+        "irshad": 2760,
+        "tap_business": 2590,
+        "tap_private": 2520,
+        "tap_count": 18,
+        "amazon_de": 1099,
+        "amazon_us": 1049,
+        "dubai_eur": 998,
+        "turkey_try": 42750
+      },
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TruePrice Admin</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="index.html" class="logo"><span class="logo-icon">TP</span><span class="logo-text">TruePrice Admin</span></a>
+    </nav>
+    <main class="results">
+      <section class="panel">
+        <h2>Вход в админку</h2>
+        <p class="v-faint">Пароль передаётся в заголовке <code>x-admin-password</code>.</p>
+        <input id="adminPassword" placeholder="Введите пароль админки" />
+        <button class="calc-btn" id="loginBtn">Войти</button>
+      </section>
+
+      <section class="panel" id="adminPanel" style="display:none">
+        <h3>Chips (до 10)</h3>
+        <textarea id="chipsInput" rows="4"></textarea>
+        <button class="calc-btn" data-save="chips">Сохранить chips</button>
+
+        <h3>Страны</h3>
+        <textarea id="countriesInput" rows="8"></textarea>
+        <button class="calc-btn" data-save="countries">Сохранить страны</button>
+
+        <h3>Таможня</h3>
+        <textarea id="customsInput" rows="6"></textarea>
+        <button class="calc-btn" data-save="customs">Сохранить таможню</button>
+
+        <h3>Доставка</h3>
+        <textarea id="deliveryInput" rows="6"></textarea>
+        <button class="calc-btn" data-save="delivery">Сохранить доставку</button>
+
+        <h3>Top SKU</h3>
+        <textarea id="skuInput" rows="14"></textarea>
+        <button class="calc-btn" data-save="sku">Сохранить SKU</button>
+      </section>
+    </main>
+    <script src="admin.js"></script>
+  </body>
+</html>

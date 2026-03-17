@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TruePrice — Результаты</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="index.html" class="logo"><span class="logo-icon">TP</span><span class="logo-text">TruePrice</span></a>
+      <a href="admin.html" class="lang-btn">Admin</a>
+    </nav>
+
+    <main class="results">
+      <section class="panel results-search">
+        <section class="search-wrap" id="searchWrap">
+          <div class="country" id="countrySelect">
+            <button class="country-btn" id="countryBtn">🇦🇿 Азербайджан · Баку · AZN ▾</button>
+            <ul class="country-menu" id="countryMenu"></ul>
+          </div>
+          <input id="queryInput" placeholder="Введи название товара — iPhone, Samsung, PS5, MacBook..." />
+          <button class="calc-btn" id="calcBtn">Рассчитать</button>
+        </section>
+      </section>
+      <div id="loadingState" class="panel loading">Загружаем результаты...</div>
+      <div id="resultsRoot"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
